@@ -22,11 +22,10 @@ a .disabled,
 a.disabled {
     color: purple;
 }
-.parent div {
+.parent div > div {
     color: red;
 }
-.parent div ~ div,
-.parent div > h4:last-of-type {
+.parent div ~ div {
     color: blue;
 }
 .parent div > h4:last-of-type {
